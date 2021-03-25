@@ -1,0 +1,34 @@
+h1 {
+    color: #ff0000;
+    /* hex color requires pound sign */
+    /* six digitts starting with red then green then blue */
+}
+
+/* these three selectors are psuedo selectores */
+/* colon seperates tthe selector from its state */ 
+
+a:link {
+    color:#00ff00;
+}
+
+a:visited {
+    color: #0000ff
+}
+
+a:hover {
+    color: #8000ff;
+    background-color: #00eeff;
+}
+
+.lookdifferent:hover {color: #999999; }
+/* above uses a class selector with the psuedo state */ 
+
+body {
+    background-image: url(images();
+    background-size: 100%;
+    background-color: #c9c9ab;
+}
+
+/* background color for entire page */ 
+
+p {background-color: #ffffff;}
