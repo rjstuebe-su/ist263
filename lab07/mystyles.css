@@ -24,7 +24,7 @@ a:hover {
 /* above uses a class selector with the psuedo state */ 
 
 body {
-    background-image: url(images();
+    background-image: url(../images/LI-Bug.svg.original.svg);
     background-size: 100%;
     background-color: #c9c9ab;
 }
