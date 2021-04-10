@@ -25,6 +25,19 @@ nav {
 
 }
 
-nav a {color: #3048BD;}
+@media only screen and (max-width: 600px) {
+    nav a {
+    display: block;
+    width: 100%;
+    margin: 5px 0px 10px 10px;
+}
+
+    nav span {
+        display: none; 
+    }
+} 
+
+
+ nav a {color: #3048BD;}
 nav a:hover{background-color: #8EBD30;}
 
