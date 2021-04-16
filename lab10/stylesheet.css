@@ -1,0 +1,44 @@
+h1, h2{
+    color: #d6ddd3;
+    font-size: 2.0em;
+}
+
+body {
+    background-color: #34a055;
+}
+
+p {
+    color: #3C548F;
+}
+
+a:link {
+    color: #404469;
+}
+
+a:visited {
+    color: #67BDE5;
+}
+
+nav {
+    background-color: #F3F7F9;
+    margin-bottom: 30px;
+    padding: 10px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    nav a {
+    display: block;
+    width: 100%;
+    margin: 5px 0px 20px 20px;
+}
+
+    nav span {
+        display: none; 
+    }
+} 
+
+
+ nav a {color: #3048BD;}
+nav a:hover{background-color: #8EBD30;}
+
