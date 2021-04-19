@@ -3,19 +3,48 @@
     <head>
         <meta charset="utf-8">
         <title>Unit 10 Accessibility</title>
-        </head>
-        <body>
+        <style>
+            #skipbutton {
+                position: absolute;
+                /* position based on top left of viewport */
+                left: -999px;
+                /* mean the element is off screen */
+                background-color: white;
+                border: 1px solid black;
+                }
+                /* when the item is tab to */
+                #skipbutton:focus {
+                position: absolute;
+                left: 10px;
+            }
+        </style>
+    </head>
+    <body>
             <h1>Unit 10 Notes</h1>
             <!-- headings should be hierachacal and only 1 h1 -->
 
             <img src="images/LI-Bug.svg.original.svg" width="30" alt="linkedin logo">
-
             <!-- nothing inside alt quotes means screen reader skips -->
             <!-- dont say image of or [icture of, etc-->
-            <a href="">Skip to Content</a>
+
+            <a id="skipbutton" href="#maincontent">Skip to Content</a>
+            <!-- anchor link - links lower on page-->
 
             <a href="http:\\www.google.com" tabindex="2">Google</a>
             <a href="http:\\www.amazon.com" tabindex="3">Amazon</a>
             <a href="http:\\www.ebay.com" tabindex="1">Ebay</a>
+            <!-- changes the order of item selected when you press tab-->
+            <a id="maincontent"></a>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </body>
         </html>
+
+
+
+       <body>
+           <div class="container">
+               <div class="column1">1</div>
+               <div class="column2">2</div>
+               <div class="column3">3</div>
+           </div>
+       </body>
