@@ -1,14 +1,14 @@
-.h1, .h2{
+/* h1, h2{
     color: #414546;
     font-size: 2.0em;
-}
+} */
 
-.body {
+body {
     background-color: #D0EAB8;
 }
 
-.nav {
+ /* nav {
     background-color: #F3F7F9;
     margin-bottom: 30px;
     padding: 10px;
-}
+} */
