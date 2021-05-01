@@ -12,3 +12,16 @@ nav {
     margin-bottom: 30px;
     padding: 10px;
 }
+
+a:link {
+    color: #305c39;
+}
+
+a:visited {
+    color: #195e7e;
+
+}
+
+p {
+    color: #414546;
+}
