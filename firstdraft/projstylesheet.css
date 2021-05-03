@@ -44,3 +44,9 @@ iframe {
     display: block;
     margin: auto;
 }
+
+@media only screen and (max-width: 600px) {
+    nav a {
+    display: block;
+    width: 100%;
+    margin: 5px 0px 20px 20px;
