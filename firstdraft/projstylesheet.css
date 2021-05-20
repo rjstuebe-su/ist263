@@ -59,7 +59,7 @@ iframe {
     position: absolute;
     transform: translateY(-100%);
   }
-
+ /* taken from csstricks.com */ 
   .skip-to-content-link {
     background: #738496;
     height: 30px;
@@ -73,3 +73,5 @@ iframe {
   .skip-to-content-link:focus {
     transform: translateY(0%);
   }
+
+  
